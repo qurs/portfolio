@@ -26,7 +26,7 @@ export default function WorkModalCard({ active, modalData, setModalActive }: Wor
 		<div className='fixed inset-0 backdrop-blur-md flex justify-center items-center'>
 			<div className='shadow-2xl max-h-[80vh] flex flex-col p-5 bg-neutral-700 rounded-4xl border-2 border-emerald-700/40 w-1/2'>
 				<div className='flex justify-center items-center gap-5 mt-1 mb-1'>
-					<Image className='w-8 aspect-auto sm:w-12 md:w-16' src={modalData.logo} alt={modalData.title} width={1024} height={1024}></Image>
+					<Image className='w-12 aspect-auto sm:w-16 md:w-24' src={modalData.logo} alt={modalData.title} width={1024} height={1024}></Image>
 					<h1 className={`text-xs sm:text-lg md:text-2xl font-bold ${montserrat.className} text-center`}>{modalData.title}</h1>
 				</div>
 

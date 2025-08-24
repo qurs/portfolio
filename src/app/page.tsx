@@ -38,9 +38,9 @@ export default function Home() {
         <FloatingDots count={150} velMul={0.25} />
       </div>
 
-      <div className='container p-4 mx-auto mt-5 bg-neutral-800 rounded-2xl w-1/4 border border-white/25'>
-        <h1 className={`text-2xl text-center mt-5 font-medium ${montserrat.className}`}>Иван &quot;qurs&quot; Щетинский</h1>
-        <p className={`italic text-neutral-300 text-md text-center mt-5 font-normal ${montserrat.className}`}>Разработчик с 6-летним опытом самостоятельной работы над pet-проектами. Создавал игры, приложения и веб-сервисы с использованием Godot 4, Node.js, Next.js, PHP, TypeScript и Electron. Интересуюсь разработкой игр и современных веб-технологий, постоянно развиваю навыки и осваиваю новые инструменты</p>
+      <div className='flex flex-col items-center justify-center p-4 mx-auto mt-5 bg-neutral-800 rounded-2xl w-2/3 sm:w-1/2 lg:w-1/3 xl:w-1/4 border border-white/25'>
+        <h1 className={`text-md sm:text-xl md:text-2xl text-center mt-5 font-medium ${montserrat.className}`}>Иван Щетинский</h1>
+        <p className={`italic text-neutral-300 text-xs sm:text-sm md:text-md text-center mt-5 font-normal ${montserrat.className}`}>Разработчик с 6-летним опытом самостоятельной работы над pet-проектами. Создавал игры, приложения и веб-сервисы с использованием Godot 4, Node.js, Next.js, PHP, TypeScript и Electron. Интересуюсь разработкой игр и современных веб-технологий, постоянно развиваю навыки и осваиваю новые инструменты</p>
         <br></br>
         <div className='flex items-center justify-center gap-10'>
           <Link href={'https://github.com/qurs'} target='_blank'>
@@ -52,8 +52,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='container p-4 mx-auto mt-5 bg-neutral-800 rounded-2xl w-1/4 border border-white/25'>
-        <h1 className={`text-2xl text-center mt-5 font-medium ${montserrat.className}`}>Веб-сайт был создан с помощью Next.JS + TailwindCSS</h1>
+      <div className='flex flex-col items-center justify-center p-4 mx-auto mt-5 bg-neutral-800 rounded-2xl w-2/3 sm:w-1/2 lg:w-1/3 xl:w-1/4 border border-white/25'>
+        <h1 className={`text-sm sm:text-xl md:text-2xl text-center mt-5 font-medium ${montserrat.className}`}>Веб-сайт был создан с помощью Next.JS + TailwindCSS</h1>
         <br></br>
         <div className='flex items-center justify-center gap-10'>
           <Link href={'https://github.com/qurs/portfolio'} target='_blank'>
@@ -62,12 +62,43 @@ export default function Home() {
         </div>
       </div>
 
+      <div className='flex flex-col items-center justify-center p-4 mx-auto mt-5 bg-neutral-800 rounded-2xl w-2/3 sm:w-1/2 lg:w-1/3 xl:w-1/4 border border-white/25'>
+        <h1 className={`mb-3 text-sm sm:text-md md:text-lg text-center font-medium ${montserrat.className}`}>Стек, с которым я работал:</h1>
+        <ul className='self-start list-disc ml-6'>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Docker</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Git</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Luvit</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>LuaJIT</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Love2D</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Godot 4</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Node.JS</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Electron</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Next.JS</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>TailwindCSS</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Spigot</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>MySQL</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Garry&apos;s Mod</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Windows Forms</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Lua</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>JavaScript</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>TypeScript</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Java</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>C#</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Python</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>GDScript</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>ImGui</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>HTML</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>CSS</li>
+          <li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>PHP</li>
+        </ul>
+      </div>
+
       <div className='container p-5 pb-15 mx-auto mt-5 mb-5 bg-radial from-neutral-800 to-neutral-900/80 rounded-2xl w-3/4 border border-white/25'>
-        <h1 className={`text-5xl text-center ${montserrat.className} font-medium mt-5`}>Мои работы</h1>
+        <h1 className={`text-2xl sm:text-4xl md:text-5xl text-center ${montserrat.className} font-medium mt-5`}>Мои работы</h1>
 
         <hr className='mt-10 mb-10 ml-10 mr-10 opacity-50'></hr>
 
-        <div className='grid lg:grid-cols-1 lg:grid-rows-3 xl:grid-cols-3 xl:grid-rows-1 mt-10 sm:gap-1 md:gap-1 lg:gap-5'>
+        <div className='grid lg:grid-cols-1 lg:grid-rows-3 xl:grid-cols-3 xl:grid-rows-1 mt-10 sm:gap-1 md:gap-1 lg:gap-5 justify-center'>
           <WorkCard
             title='NationForge (2024) (Pet-project)'
             desc={'2D стратегия-песочница в реальном времени на Love2D. Реализованы генерация карты, создание государств, управление ресурсами и юнитами, войны, битвы и колонизация. Проект находится в заморозке.'}
