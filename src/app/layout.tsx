@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "qurs' Portfolio",
-  description: "My portfolio, made by Next.js",
+  description: "My portfolio, made by Next.js + Tailwind CSS",
 };
 
 export default function RootLayout({
