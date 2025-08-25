@@ -82,32 +82,6 @@ export default function Home() {
           />
 
           <WorkCard
-            title='Triangle Union (2020) (Pet-project)'
-            desc={'Triangle Union — игровой проект в Garry’s Mod. Создан и поддерживался мной как основателем и главным разработчиком. Включал игровой сервер с уникальным набором режимов, систему динамического голосования, сайт-википедию и Discord-сообщество.'}
-            fullDesc={'В июне 2020 года я запустил Triangle Union — игровой проект в Garry’s Mod. Изначально он задумывался как сеть игровых серверов, однако ключевым стал сервер «Староигры». На нём игроки могли переключаться между множеством игровых режимов при помощи системы голосования. Проект сопровождался дополнительной инфраструктурой: Discord-сервером для сообщества и вики-сайтом со справочной информацией.\nЯ полностью отвечал за разработку, поддержку и управление проектом: от написания игрового кода и настройки серверов до администрирования сообщества и создания контента.'}
-            logo='/portfolio/triangle_union.png'
-            logoSize={64}
-            roles={['Основатель проекта', 'Главный разработчик', 'Системный администратор', 'Руководитель сообщества']}
-            stack={['Lua', 'Garry\'s Mod', 'Docker', 'MySQL']}
-            links={[ {img: '/portfolio/discord.svg', url: 'https://discord.gg/KSxjfTYyTe'} ]}
-            setModalActive={setModalActive}
-            setModalData={setModalData}
-          />
-
-          <WorkCard
-            title='Triangle Union Website (2022) (Pet-project)'
-            desc={'Веб-приложение с информацией о проекте, командой и системой доната. В качестве платежного решения использовался QIWI P2P.'}
-            fullDesc={'Я разрабатывал бэкенд для сайта Triangle Union, который предоставлял информацию о проекте, команде и позволял игрокам делать пожертвования через встроенную систему доната. Через бэкенд также реализовывалась конфигурация списка серверов и участников команды, позволяющая динамически обновлять данные без изменения статического контента. Фронтенд создавал мой товарищ. Платежи обрабатывались через QIWI P2P, а серверная часть обеспечивала интеграцию с игрой.'}
-            logo='/portfolio/triangle_union.png'
-            logoSize={64}
-            roles={['Backend-разработчик']}
-            stack={['Node.JS', 'JavaScript', 'HTML', 'CSS']}
-            links={[ {img: '/portfolio/github-mark-white.svg', url: 'https://github.com/qurs/tria.su-nodejs'} ]}
-            setModalActive={setModalActive}
-            setModalData={setModalData}
-          />
-
-          <WorkCard
             title='Triangle Union Monitoring Bot (2024) (Pet-project)'
             desc={'Node.js-бот, который отслеживал количество игроков на сервере и обновлял соответствующую информацию в Discord-канале.'}
             fullDesc={'Я разработал Discord-бота для проекта Triangle Union на Node.js. Бот автоматически мониторил количество игроков на игровом сервере и обновлял данные в специально отведённом канале Discord, обеспечивая актуальную информацию для сообщества.'}
@@ -116,6 +90,19 @@ export default function Home() {
             roles={['Разработчик']}
             stack={['Node.JS', 'JavaScript', 'Docker']}
             links={[ {img: '/portfolio/github-mark-white.svg', url: 'https://github.com/qurs/triabot'} ]}
+            setModalActive={setModalActive}
+            setModalData={setModalData}
+          />
+
+          <WorkCard
+            title='GoFishing (2024) (Pet-project)'
+            desc={'Экспериментальная игра про рыбалку с меню, системой локаций и мини-игрой ловли рыбы. Проект находится в заморозке.'}
+            fullDesc={'Я разрабатывал 2D игру про рыбалку на фреймворке Love2D. На данный момент реализованы меню, система локаций и мини-игра ловли рыбы. Проект заморожен и остаётся в разработке и представляет собой эксперимент с игровыми механиками и логикой.'}
+            logo='/portfolio/gofishing.png'
+            logoSize={128}
+            roles={['Разработчик игры', 'Дизайнер игровых механик']}
+            stack={['Love2D', 'Lua']}
+            links={[ {img: '/portfolio/github-mark-white.svg', url: 'https://github.com/qurs/gofishing'} ]}
             setModalActive={setModalActive}
             setModalData={setModalData}
           />
@@ -171,14 +158,14 @@ export default function Home() {
           />
 
           <WorkCard
-            title='GoFishing (2024) (Pet-project)'
-            desc={'Экспериментальная игра про рыбалку с меню, системой локаций и мини-игрой ловли рыбы. Проект находится в заморозке.'}
-            fullDesc={'Я разрабатывал 2D игру про рыбалку на фреймворке Love2D. На данный момент реализованы меню, система локаций и мини-игра ловли рыбы. Проект заморожен и остаётся в разработке и представляет собой эксперимент с игровыми механиками и логикой.'}
-            logo='/portfolio/gofishing.png'
-            logoSize={128}
-            roles={['Разработчик игры', 'Дизайнер игровых механик']}
-            stack={['Love2D', 'Lua']}
-            links={[ {img: '/portfolio/github-mark-white.svg', url: 'https://github.com/qurs/gofishing'} ]}
+            title='Triangle Union Website (2022) (Pet-project)'
+            desc={'Веб-приложение с информацией о проекте, командой и системой доната. В качестве платежного решения использовался QIWI P2P.'}
+            fullDesc={'Я разрабатывал бэкенд для сайта Triangle Union, который предоставлял информацию о проекте, команде и позволял игрокам делать пожертвования через встроенную систему доната. Через бэкенд также реализовывалась конфигурация списка серверов и участников команды, позволяющая динамически обновлять данные без изменения статического контента. Фронтенд создавал мой товарищ. Платежи обрабатывались через QIWI P2P, а серверная часть обеспечивала интеграцию с игрой.'}
+            logo='/portfolio/triangle_union.png'
+            logoSize={64}
+            roles={['Backend-разработчик']}
+            stack={['Node.JS', 'JavaScript', 'HTML', 'CSS']}
+            links={[ {img: '/portfolio/github-mark-white.svg', url: 'https://github.com/qurs/tria.su-nodejs'} ]}
             setModalActive={setModalActive}
             setModalData={setModalData}
           />
@@ -205,6 +192,19 @@ export default function Home() {
             roles={['Разработчик']}
             stack={['Lua', 'Discordia', 'Luvit']}
             links={[ {img: '/portfolio/github-mark-white.svg', url: 'https://github.com/qurs/sc-bot'} ]}
+            setModalActive={setModalActive}
+            setModalData={setModalData}
+          />
+
+          <WorkCard
+            title='Triangle Union (2020) (Pet-project)'
+            desc={'Triangle Union — игровой проект в Garry’s Mod. Создан и поддерживался мной как основателем и главным разработчиком. Включал игровой сервер с уникальным набором режимов, систему динамического голосования, сайт-википедию и Discord-сообщество.'}
+            fullDesc={'В июне 2020 года я запустил Triangle Union — игровой проект в Garry’s Mod. Изначально он задумывался как сеть игровых серверов, однако ключевым стал сервер «Староигры». На нём игроки могли переключаться между множеством игровых режимов при помощи системы голосования. Проект сопровождался дополнительной инфраструктурой: Discord-сервером для сообщества и вики-сайтом со справочной информацией.\nЯ полностью отвечал за разработку, поддержку и управление проектом: от написания игрового кода и настройки серверов до администрирования сообщества и создания контента.'}
+            logo='/portfolio/triangle_union.png'
+            logoSize={64}
+            roles={['Основатель проекта', 'Главный разработчик', 'Системный администратор', 'Руководитель сообщества']}
+            stack={['Lua', 'Garry\'s Mod', 'Docker', 'MySQL']}
+            links={[ {img: '/portfolio/discord.svg', url: 'https://discord.gg/KSxjfTYyTe'} ]}
             setModalActive={setModalActive}
             setModalData={setModalData}
           />
