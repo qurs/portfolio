@@ -7,7 +7,7 @@ const montserrat = Montserrat({
 
 export default function MyStackCard() {
 	return (
-		<div className={`flex flex-col items-center justify-center p-4 mt-5 bg-neutral-800 rounded-2xl w-full border border-white/25`}>
+		<div className={`flex flex-col items-center justify-center p-4 bg-neutral-800 rounded-2xl w-full border border-white/25`}>
 			<h1 className={`mb-3 text-xs sm:text-md md:text-lg text-center font-medium ${montserrat.className}`}>Стек, с которым я работал:</h1>
 			<ul className='self-start list-disc ml-6'>
 				<li className={`font-medium md:font-bold text-xs md:text-sm ${montserrat.className}`}>Next.JS</li>
