@@ -43,7 +43,7 @@ export default function WorkModalCard({ active, modalData, setModalActive }: Wor
 
 	return (
 		<div className='fixed inset-0 backdrop-blur-md flex justify-center items-center'>
-			<div ref={ref} className='shadow-2xl max-h-[80vh] flex flex-col p-5 bg-neutral-700 rounded-4xl border-2 border-emerald-700/40 w-3/4 sm:w-1/2'>
+			<div ref={ref} className='shadow-2xl max-h-[80vh] flex flex-col p-10 bg-neutral-800/85 rounded-4xl border-2 border-purple-400/40 w-3/4 sm:w-1/2'>
 				<div className='flex justify-center items-center gap-5 mt-1 mb-2 xxs:mb-3 xs:mb-5'>
 					<Image className='w-12 aspect-auto sm:w-16 md:w-24' src={modalData.logo} alt={modalData.title} width={1024} height={1024}></Image>
 					<h1 className={`text-xs sm:text-lg md:text-2xl font-bold ${montserrat.className} text-center`}>{modalData.title}</h1>
